@@ -1,6 +1,5 @@
-# vue-tutorial
-
-> A Vue.js project
+# skins-of-the-rift
+> My first project as a self-taught web developer : a better way to browse League of Legends skins.
 
 ## Build Setup
 
@@ -14,5 +13,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
