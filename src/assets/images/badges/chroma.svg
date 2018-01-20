@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="133px" viewBox="0 0 100 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>chroma</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 100 0 100 132.352941 50.3285415 119.831871 0 132.352941"></polygon>
+        <filter x="-0.5%" y="-0.4%" width="102.0%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.109803922   0 0 0 0 0.133333333  0 0 0 0.46 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chroma">
+            <g id="Group" fill-rule="nonzero">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="ic_brush_black_24px" transform="translate(9.000000, 23.000000)">
+                <polygon id="Shape" points="14 0 38 0 38 24 14 24"></polygon>
+                <path d="M21.5315297,52.3801312 C14.3830619,52.3801312 8.61261189,58.1505811 8.61261189,65.299049 C8.61261189,70.9403098 3.61729699,73.9116609 0,73.9116609 C3.96180147,79.1653542 10.7227018,82.5242728 17.2252238,82.5242728 C26.7421599,82.5242728 34.4504476,74.8159851 34.4504476,65.299049 C34.4504476,58.1505811 28.6799976,52.3801312 21.5315297,52.3801312 Z M80.5709842,12.0300445 L74.8005343,6.25959449 C73.121075,4.58013517 70.4081022,4.58013517 68.7286429,6.25959449 L30.1441416,44.8440958 L41.986483,56.6864371 L80.5709842,18.1019358 C82.2504436,16.4224765 82.2504436,13.7095038 80.5709842,12.0300445 Z" id="Shape" fill-opacity="0.8" fill="#001C22" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

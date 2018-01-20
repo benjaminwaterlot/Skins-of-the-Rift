@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="135px" viewBox="0 0 100 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>future</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 100 0 100 135 50.3285415 122.228509 0 135"></polygon>
+        <filter x="-0.5%" y="-0.4%" width="102.0%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.109803922   0 0 0 0 0.133333333  0 0 0 0.46 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Assets" font-family="AllianzNeo-Bold, Allianz Neo" font-size="600" font-weight="bold" fill="#4A4A4A">
+            <tspan x="-1355" y="-107">Assets</tspan>
+        </text>
+        <g id="future" fill-rule="nonzero">
+            <g id="planned">
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Shape" fill-opacity="0.8" fill="#001C22" points="32 30 32 71.8 43.4 71.8 43.4 106 70 60.4 54.8 60.4 70 30"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

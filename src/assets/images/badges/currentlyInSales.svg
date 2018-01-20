@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="135px" viewBox="0 0 100 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>sales</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 100 0 100 135 50.3285415 122.228509 0 135"></polygon>
+        <filter x="-0.5%" y="-0.4%" width="102.0%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.109803922   0 0 0 0 0.133333333  0 0 0 0.46 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sales" fill-rule="nonzero">
+            <g>
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M50.6378575,62.4214145 C40.6034763,59.8133595 37.3765608,57.116896 37.3765608,52.9174855 C37.3765608,48.0992141 41.8411974,44.7396856 49.3117278,44.7396856 C57.180097,44.7396856 60.0975825,48.497053 60.3628085,54.0225935 L70.1319635,54.0225935 C69.8225335,46.4194499 65.1810795,39.435167 55.942376,37.1807466 L55.942376,27.5 L42.6810794,27.5 L42.6810794,37.0481336 C34.105441,38.9047152 27.2095667,44.4744597 27.2095667,53.005894 C27.2095667,63.2170925 35.6525922,68.3005895 47.9855981,71.262279 C59.0366785,73.9145385 61.246895,77.8045185 61.246895,81.9155205 C61.246895,84.965619 59.080883,89.8280945 49.3117278,89.8280945 C40.2056374,89.8280945 36.6250873,85.7612965 36.1388397,80.5451865 L26.4138889,80.5451865 C26.9443408,90.225933 34.1938496,95.663065 42.6810794,97.475442 L42.6810794,107.06778 L55.942376,107.06778 L55.942376,97.5638505 C64.562219,95.928291 71.413889,90.9332025 71.413889,81.8713165 C71.413889,69.317289 60.6722385,65.0294695 50.6378575,62.4214145 Z" id="Shape" fill-opacity="0.8" fill="#001C22"></path>
+            </g>
+        </g>
+    </g>
+</svg>

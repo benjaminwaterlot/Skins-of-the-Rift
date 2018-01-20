@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>shuffle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LOGO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shuffle">
+            <circle id="Oval" fill-opacity="0.8" fill="#001727" cx="40" cy="40" r="40"></circle>
+            <g transform="translate(16.000000, 20.000000)" fill="#FFFFFF" fill-rule="nonzero" id="Shape">
+                <path d="M27,9 L37,9 L37,16 L48,8 L37,0 L37,7 L27,7 C19.832,7 14,12.832 14,20 C14,26.065 9.065,31 3,31 L1,31 C0.447,31 0,31.447 0,32 C0,32.553 0.447,33 1,33 L3,33 C10.168,33 16,27.168 16,20 C16,13.935 20.935,9 27,9 Z"></path>
+                <path d="M1,9 L3,9 C5.713,9 8.318,9.994 10.336,11.799 C10.527,11.97 10.766,12.054 11.003,12.054 C11.277,12.054 11.551,11.942 11.748,11.721 C12.116,11.309 12.081,10.677 11.67,10.309 C9.285,8.175 6.206,7 3,7 L1,7 C0.447,7 0,7.447 0,8 C0,8.553 0.447,9 1,9 Z"></path>
+                <path d="M37,31 L27,31 C24.315,31 21.73,30.024 19.722,28.252 C19.311,27.887 18.678,27.925 18.311,28.341 C17.946,28.755 17.985,29.387 18.4,29.752 C20.773,31.847 23.828,33 27,33 L37,33 L37,40 L48,32 L37,24 L37,31 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

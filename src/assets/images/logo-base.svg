@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="106px" viewBox="0 0 38 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>diamant-rouge</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="76.0823141%" y1="50%" x2="36.0288592%" y2="18.5402623%" id="linearGradient-1">
+            <stop stop-color="#7C0D2D" offset="0%"></stop>
+            <stop stop-color="#F63256" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="32.5832881%" x2="55.4060732%" y2="63.4507333%" id="linearGradient-2">
+            <stop stop-color="#820211" offset="0%"></stop>
+            <stop stop-color="#790016" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="6.19746228%" x2="26.2645485%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FA769D" stop-opacity="0.2" offset="0%"></stop>
+            <stop stop-color="#A60018" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#D80A4A" offset="0%"></stop>
+            <stop stop-color="#AF0424" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="89.3694375%" x2="50%" y2="3.061617e-15%" id="linearGradient-5">
+            <stop stop-color="#FF628A" offset="0%"></stop>
+            <stop stop-color="#E22043" offset="36.4413772%"></stop>
+            <stop stop-color="#A70119" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="65.2593786%" y2="-8.06461476%" id="linearGradient-6">
+            <stop stop-color="#FD5C75" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#C8082C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-7">
+            <stop stop-color="#DF0043" offset="0%"></stop>
+            <stop stop-color="#BC0020" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="diamant-rouge">
+            <g id="Group-Copy">
+                <polygon id="Path-2" fill="#D71A3A" points="9 19 20 3 27 0 27 30 33 38 38 45 38 83 30 100 24 106 17 97 7 85 0 79 7 36"></polygon>
+                <polygon id="Path-3" fill="url(#linearGradient-1)" points="27 -1.42108547e-14 18 13 9 19 20 3"></polygon>
+                <polygon id="Path-4" fill="url(#linearGradient-2)" points="27 3.55271368e-15 18 13 22 29 33 38 27 30"></polygon>
+                <polygon id="Path-5" fill="url(#linearGradient-3)" points="22 29 33 38 18 53"></polygon>
+                <polygon id="Path-7" fill="url(#linearGradient-4)" points="7 36 18 53 22 29 18 13 9 19"></polygon>
+                <path d="M0,79 L18,53 L33,38 C36.3333333,42.6666667 38,45 38,45 C38,45 38,57.6666667 38,83 L30,100 L24,106 L7,85 L0,79 Z" id="Path-9" fill="url(#linearGradient-5)"></path>
+                <polyline id="Path-11" stroke-opacity="0.5" stroke="#7C202D" stroke-width="0.400000006" points="27 0 18 13 9 19"></polyline>
+                <path d="M22,29 L18,13" id="Path-12" stroke="#971127" stroke-width="0.400000006"></path>
+                <polygon id="Path-6" fill="url(#linearGradient-6)" points="18 53 0 79 7 36"></polygon>
+                <polyline id="Path-10" stroke="#F15A7C" stroke-width="0.300000012" points="0 79 18 53 33 38 22 29"></polyline>
+                <polygon id="Path-13" fill="url(#linearGradient-7)" points="30 100 8 84 0 79 7 85 24 106"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
