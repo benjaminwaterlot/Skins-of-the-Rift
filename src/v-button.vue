@@ -1,4 +1,5 @@
 <!-- ============== TEMPLATE ============== -->
+<!-- This component's code is UGLY : updated planned :) -->
 <template>
 	<a
 	:href="contentOfButton.link"
