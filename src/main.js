@@ -25,7 +25,6 @@ import appHeader from './app-header.vue'
 import appFooter from './app-footer.vue'
 
 import pAbout from './p-about.vue'
-import pAboutContent from './p-about-content.vue'
 
 import pHome from './p-home.vue'
 import pHomeLatest from './p-home-latest.vue'
@@ -114,7 +113,6 @@ Vue.component('appHeader', appHeader)
 Vue.component('appFooter', appFooter)
 
 Vue.component('pAbout', pAbout)
-Vue.component('pAboutContent', pAboutContent)
 
 Vue.component('pHome', pHome)
 Vue.component('pHomeLatest', pHomeLatest)
