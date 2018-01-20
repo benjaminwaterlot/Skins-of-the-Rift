@@ -55,6 +55,12 @@ export default {
 					link = 'https://www.facebook.com/SkinsOfTheRift/'
 					break
 
+				case 'newengland':
+					title = 'Discover New England LOL'
+					body = ''
+					link = 'https://www.newenglandlol.com/'
+					break
+
 				default:
 					title = 'Error: no button of this type :' + typeOfButton
 					break
@@ -68,6 +74,8 @@ export default {
 			? 'linear-gradient(135deg, hsl(225, 7%, 16%), hsl(225, 7%, 24%))'
 			: this.type === 'paypal'
 			? 'linear-gradient(180deg, hsl(45, 98%, 70%), hsl(40, 97%, 55%))'
+			: this.type === 'newengland'
+			? 'linear-gradient(45deg, hsl(193, 57%, 19%), hsl(193, 57%, 30%))'
 			: 'white'
 			return {
 				button: {
@@ -96,7 +104,7 @@ export default {
 
 	.v-button:hover{
 		filter: brightness(120%);
-		transform: translateX(10px);
+		transform: translateY(3px);
 	}
 
 	.v-button__title {

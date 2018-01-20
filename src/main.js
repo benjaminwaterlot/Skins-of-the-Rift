@@ -26,6 +26,8 @@ import appFooter from './app-footer.vue'
 
 import pAbout from './p-about.vue'
 
+import pPartners from './p-partners.vue'
+
 import pHome from './p-home.vue'
 import pHomeLatest from './p-home-latest.vue'
 import pHomeFeatured from './p-home-featured.vue'
@@ -99,6 +101,10 @@ const routes = [
 	name:'homepage',
 	component: pHome,
 	props: pHomeProps },
+
+	{ path: '/partners',
+	name:'partners',
+	component: pPartners},
 ]
 
 const router = new VueRouter({
@@ -113,6 +119,8 @@ Vue.component('appHeader', appHeader)
 Vue.component('appFooter', appFooter)
 
 Vue.component('pAbout', pAbout)
+
+Vue.component('pPartners', pPartners)
 
 Vue.component('pHome', pHome)
 Vue.component('pHomeLatest', pHomeLatest)
