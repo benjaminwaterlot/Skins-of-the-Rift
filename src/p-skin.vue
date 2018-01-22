@@ -114,7 +114,19 @@ export default {
 	},
 
 	methods: {
+		updateTitle: function(){
+			document.title = `SotR | ${this.thisSkin.skin}`
+		}
 	},
+
+	updated(){
+		this.updateTitle()
+	},
+
+	created(){
+		this.updateTitle()
+	},
+
 }
 
 </script>

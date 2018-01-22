@@ -33,7 +33,7 @@
 				label="Follow SotR on Facebook"
 				type="discord">
 				</vButton>
-				<div class="donate">
+				<div class="donate wanna-help__button wanna-help__button--paypal">
 					<p class="donate__title donate__title--bold">Donate to support early days of Skins of the Rift!</p>
 					<form class="donate__button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 						<input type="hidden" name="cmd" value="_s-xclick">
@@ -42,10 +42,14 @@
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 						<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
 					</form>
-					<p class="donate__title">And get your name on <strong>our patrons board</strong></p>
+					<!-- <p class="donate__title">And get your name on <strong>our patrons board</strong></p> -->
+				</div>
 			</div>
-			</div>
+			<h1 class="wanna-help__title">Wall of Fame</h1>
+			<div class="wanna-help__bandeau">
 
+			</div>
+			<p class="wanna-help__body">Thanks to <strong>Joke (Deutschland)</strong> for becoming the first patron! With $10, you paid for the <strong>first months of the domain name</strong> :)</p>
 		</div>
 	</section>
 </template>
@@ -104,8 +108,26 @@ export default {
 		text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 	}
 
+	.wanna-help__bandeau {
+		width: 100%;
+		height: 250px;
+		background: url("./assets/images/wall-of-fame.jpg");
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+		margin: 20px 5px;
+	}
+
 	.wanna-help__buttons {
-		display: flex;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+		 "a b"
+		 "c c";
+		margin-bottom: 20px;
+	}
+
+	.wanna-help__button--paypal {
+		grid-area: c;
 	}
 
 	.donate {
@@ -128,8 +150,12 @@ export default {
 	}
 
 	.donate__button {
-		margin: 20px 0px;
-		
+		margin: 10px 0px;
+		transition: all .3s ease-out;
+	}
+
+	.donate__button:hover {
+		transform: scale(1.04);
 	}
 
 	.donate__button * {

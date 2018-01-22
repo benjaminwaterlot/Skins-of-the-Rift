@@ -69,31 +69,11 @@ export default {
 					cards: this.newSkins
 				},
 				futureSkins: {
-					title: 'Future skins',
+					title: 'Upcoming skins',
 					cards: this.futureSkins
 				}
 			}
 
-			// switch (this.type) {
-			// 	case 'newSkins':
-			// 	return {
-			// 		title: 'New skins',
-			// 		cards: this.newSkins
-			// 	}
-			// 		break
-      //
-			// 	case 'futureSkins':
-			// 	console.log(this.futureSkins)
-			// 	return {
-			// 		title: 'Future skins',
-			// 		cards: this.futureSkins
-			// 	}
-			// 		break
-      //
-			// 	default:
-			// 		console.log("Error : you didn't provide a highlight type")
-			// 		break
-			// }
 		},
 	},
 }

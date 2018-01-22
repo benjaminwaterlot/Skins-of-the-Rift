@@ -118,6 +118,30 @@
 				return this.createPalette(this.skinForBandeau)
 			}
 		},
+
+		methods: {
+			updateTitle: function(){
+				switch (this.typeOfSearch) {
+					case 'champion':
+						document.title = `SotR | ${this.skindbFiltered[0].champion}`
+						break
+					case 'family':
+						document.title = `SotR | ${this.skindbFiltered[0].family}`
+						break
+					default:
+						document.title = `SotR | ${this.searched}`
+						break
+				}
+			}
+		},
+
+		updated(){
+			this.updateTitle()
+		},
+
+		created(){
+			this.updateTitle()
+		},
 	}
 </script>
 

@@ -27,7 +27,7 @@
 		class="subtitle"
 		v-if="filteringUniques('f').length > 0"
 		:style="styles.subtitle">
-		Families
+		Skin Lines
 		</h2>
 
 		<router-link
@@ -76,9 +76,6 @@ export default {
 					color: this.colorize(this.colors.LightVibrant, .9, 'lighter'),
 					textShadow: `3px 3px 0px ${this.colorize(this.colors.DarkMuted, .6)}`
 				},
-				avatar: {
-					display: 'block'
-				}
 			}
 		}
 	},
@@ -132,7 +129,6 @@ export default {
 			font-size: 1.4em;
 		}
 	}
-
 
 	.subtitle:last-of-type {
 		margin-top: 30px;

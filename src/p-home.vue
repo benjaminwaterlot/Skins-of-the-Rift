@@ -63,7 +63,7 @@ export default {
 
 	},
 	created(){
-		console.warn("HOME WAS CREATED");
+		document.title = `Skins of the Rift`
 	}
 }
 

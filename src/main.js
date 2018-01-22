@@ -1,10 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueTippy from 'vue-tippy'
-import toRgba from 'hex-rgba'
-// import colorsdb from './colorsdb.js'
-// import skindb from './skindb.js'
-// import championdb from './championdb.js'
 import colorsdb from './colorsdb.json'
 import championdb from './championdb.json'
 import skindb from './skindb.json'
@@ -25,6 +21,8 @@ import appHeader from './app-header.vue'
 import appFooter from './app-footer.vue'
 
 import pAbout from './p-about.vue'
+
+import pChampions from './p-champions.vue'
 
 import pPartners from './p-partners.vue'
 
@@ -81,6 +79,13 @@ function pAboutProps (route) {
 	}
 }
 
+function pChampionsProps (route) {
+	return {
+		skindb: skindb,
+		championdb: championdb
+	}
+}
+
 const routes = [
 	{ path: '/search/:searched',
 	name:'searchpage',
@@ -105,6 +110,12 @@ const routes = [
 	{ path: '/partners',
 	name:'partners',
 	component: pPartners},
+
+	{ path: '/champions',
+	name:'champions',
+	component: pChampions,
+	props: pChampionsProps },
+,
 ]
 
 const router = new VueRouter({
@@ -119,6 +130,8 @@ Vue.component('appHeader', appHeader)
 Vue.component('appFooter', appFooter)
 
 Vue.component('pAbout', pAbout)
+
+Vue.component('pChampions', pChampions)
 
 Vue.component('pPartners', pPartners)
 

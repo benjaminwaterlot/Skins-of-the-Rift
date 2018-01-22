@@ -23,6 +23,11 @@
 		<div class="blank">
 
 		</div>
+		<div class="menu__label">
+			<router-link :to="{ name: 'champions'}">
+				<p class="menu__text">Champions</p>
+			</router-link>
+		</div>
 		<div
 			class="fb-like"
 			data-href="https://www.facebook.com/SkinsOfTheRift/"
@@ -159,5 +164,19 @@
 			display: none;
 		}
 	}
+
+	.menu__text {
+		text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+		margin-right: 10px;
+	}
+
+	.menu__label {
+		transition: all .3s ease-out;
+	}
+
+	.menu__label:hover {
+		transform: translateY(-2px);
+	}
+
 
 </style>
