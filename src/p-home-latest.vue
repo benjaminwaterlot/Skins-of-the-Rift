@@ -60,7 +60,7 @@ export default {
 			const skindb = this.skindb
 			const lastSkinsIndex = skindb.length - 10
 			const sliceOnLastSkins = _.slice(skindb, lastSkinsIndex)
-			return sliceOnLastSkins.filter(val => val.releasedate == '/')
+			return _.reverse(sliceOnLastSkins.filter(val => val.releasedate == '/'))
 		},
 		handleType: function(){
 			return {

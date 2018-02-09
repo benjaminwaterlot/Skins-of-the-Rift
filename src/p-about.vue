@@ -3,6 +3,8 @@
 	<section
 	id="p-about"
 	>
+		<!-- <div class="fb-post" data-href="https://www.facebook.com/SkinsOfTheRift/posts/164181377552745"></div> -->
+
 		<div class="fb-page"
 		data-href="https://www.facebook.com/SkinsOfTheRift/"
 		data-tabs="timeline"
@@ -87,10 +89,14 @@ export default {
 	}
 
 	.fb-page {
-		border-radius: 5px;
+		/* border-radius: 5px;
 		overflow: hidden;
-		box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
-		width: 500px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,0.3); */
+		width: 100%;
+	}
+
+	._2p_a {
+		background-color: white;
 	}
 
 	.wanna-help {
